@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: slkd/ambulance-ufe
   newName: slkd/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: master.20240402.1007  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: slkd/ambulance-certs-ufe
+  newName: slkd/ambulance-certs-ufe
+  newTag: master.20240402.1006
 
 replacements:
  - targets:
