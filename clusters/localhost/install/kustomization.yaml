@@ -11,11 +11,11 @@ commonLabels:
 resources:
 - ../../../apps/oma-ambulance-ufe
 - ../../../apps/oma-certs-ufe
-# - ../../../apps/oma-ambulance-webapi
+- ../../../apps/oma-ambulance-webapi
 
-# components:
-#  - ../../../components/version-developers
-#  - https://github.com/oma-wac-cv/wac-ambulance-webapi//deployments/kustomize/components/mongodb
+components:
+ - ../../../components/version-developers
+ - https://github.com/oma-wac-cv/wac-ambulance-webapi//deployments/kustomize/components/mongodb
 
-# patches:
-# - path: patches/ambulance-webapi.service.yaml
+patches:
+- path: patches/ambulance-webapi.service.yaml
