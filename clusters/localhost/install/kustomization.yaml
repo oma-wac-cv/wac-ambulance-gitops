@@ -12,11 +12,13 @@ resources:
 - ../../../apps/oma-ambulance-ufe
 - ../../../apps/oma-certs-ufe
 - ../../../apps/oma-ambulance-webapi
+- ../../../apps/oma-certs-webapi
 
 components:
  - ../../../components/version-developers
  - https://github.com/oma-wac-cv/wac-ambulance-webapi//deployments/kustomize/components/mongodb
+   #  - https://github.com/oma-wac-cv/wac-ambulance-certs-webapi//deployments/kustomize/components/mongodb
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
-- path: patches/mongodb-auth.secret.yaml
+- path: patches/ambulance-certs-webapi.service.yaml

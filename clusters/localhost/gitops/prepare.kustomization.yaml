@@ -7,10 +7,6 @@ spec:
   healthChecks:
   - apiVersion: apps/v1
     kind: Deployment
-    name: envoy-gateway
-    namespace: envoy-gateway-system
-  - apiVersion: apps/v1
-    kind: Deployment
     name: ufe-controller
     namespace: wac-hospital
   interval: 120s

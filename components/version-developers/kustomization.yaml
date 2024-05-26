@@ -10,3 +10,9 @@ images:
 - name: slkd/ambulance-wl-webapi
   newName: slkd/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: master.20240325.1423 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: slkd/ambulance-certs-ufe
+  newName: slkd/ambulance-certs-ufe # {"$imagepolicy":  "wac-hospital:ambulance-certs-ufe:name"}
+  newTag: master # {"$imagepolicy": "wac-hospital:ambulance-certs-ufe:tag"}
+- name: slkd/ambulance-certs-webapi
+  newName: slkd/ambulance-certs-webapi # {"$imagepolicy":  "wac-hospital:ambulance-certs-webapi:name"}
+  newTag: master # {"$imagepolicy": "wac-hospital:ambulance-certs-webapi:tag"}
