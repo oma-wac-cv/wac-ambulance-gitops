@@ -9,7 +9,7 @@ images:
   newTag: 1.1.0
 - name: slkd/ambulance-certs-ufe
   newName: slkd/ambulance-certs-ufe
-  newTag: 1.2.0
+  newTag: 1.3.0
 - name: slkd/ambulance-certs-webapi
   newName: slkd/ambulance-certs-webapi
   newTag: 1.0.0
