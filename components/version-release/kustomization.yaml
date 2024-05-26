@@ -4,12 +4,15 @@ images:
 - name: slkd/ambulance-ufe
   newName: slkd/ambulance-ufe
   newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
-- name: slkd/ambulance-certs-ufe
-  newName: slkd/ambulance-certs-ufe
-  newTag: 1.1.0
 - name: slkd/ambulance-wl-webapi
   newName: slkd/ambulance-wl-webapi
   newTag: 1.1.0
+- name: slkd/ambulance-certs-ufe
+  newName: slkd/ambulance-certs-ufe
+  newTag: 1.2.0
+- name: slkd/ambulance-certs-webapi
+  newName: slkd/ambulance-certs-webapi
+  newTag: 1.0.0
 
 replacements:
  - targets:

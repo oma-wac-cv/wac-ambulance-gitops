@@ -9,8 +9,9 @@ commonLabels:
 
 resources:
  - ../../../apps/oma-ambulance-ufe
- - ../../../apps/oma-certs-ufe
  - ../../../apps/oma-ambulance-webapi
+ - ../../../apps/oma-certs-ufe
+ - ../../../apps/oma-certs-webapi
 
 components:
  - ../../../components/version-release
