@@ -11,7 +11,7 @@ spec:
                                     # pri navigácii na zoznam čakajúcich
       attributes:
         - name: api-base
-          value: http://localhost:30082/api
+          value: /oma-certs-api
       path: oma-certs      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: "[oma] Správca kurzov a certifikácií"      # názov mikro aplikácie
       details: Spravuje aktuálne certifikácie a kurzy absolvované zamestnancami nemocnice

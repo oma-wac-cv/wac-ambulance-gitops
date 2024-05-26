@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: oma-certs-openapi-ui
+spec:
+  selector:
+    pod: oma-ambulance-certs-webapi-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 8081
