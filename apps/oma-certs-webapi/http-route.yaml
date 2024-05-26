@@ -22,7 +22,7 @@ spec:
       backendRefs:
       - group: ""
         kind: Service
-        name: oma-ambulance-webapi
+        name: oma-ambulance-certs-webapi
         port: 80
     - matches:
       - path:
